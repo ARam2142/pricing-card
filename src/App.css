@@ -1,38 +1,67 @@
-.App {
+body {
+  background-color: hsl(230, 100%, 99%);
+}
+
+div.header {
   text-align: center;
+  font-size: 15px;
+  margin-top: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.card {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* top component */
+.topcomponent {
+  display: inline-flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2.money {
+  margin-top: 10px;
+  margin-left: 14rem;
+  margin-right: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+span.slash {
+  margin-top: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p.month {
+  margin-left: 5px;
 }
+
+.sliderbox {
+  width: 100%;
+}
+
+input#myRange.slider {
+  width: 100%;
+}
+
+/* .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+} */
